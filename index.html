@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikini Bottom Tiki Bar</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper.js CDN -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Header Section -->
+    <header class="flex justify-between items-center p-4 bg-opacity-60 
+bg-black fixed top-0 w-full z-50">
+        <div class="text-3xl font-bold text-yellow-400">Bikini 
+Bottom</div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#about" 
+class="hover:text-yellow-400">About</a></li>
+                <li><a href="#cocktails" 
+class="hover:text-yellow-400">Cocktails</a></li>
+                <li><a href="#menu" 
+class="hover:text-yellow-400">Menu</a></li>
+                <li><a href="#location" 
+class="hover:text-yellow-400">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen bg-cover bg-center relative" 
+style="background-image: url('hero_bg.jpg');">
+        <div class="flex items-center justify-center h-full bg-black 
+bg-opacity-50">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-extrabold">A Glimpse 
+of Polynesia in the Heart of Paris</h1>
+                <a href="#about" class="mt-4 inline-block bg-yellow-400 
+text-gray-900 py-2 px-4 text-lg rounded-lg hover:bg-yellow-300">Explore 
+Paradise</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 md:px-16 bg-gray-800">
+        <div class="md:flex md:items-center md:space-x-8">
+            <div class="md:w-1/2">
+                <h2 class="text-3xl font-semibold">Escape to Paradise</h2>
+                <p class="mt-4 text-lg">Step into a world where Polynesian 
+islands meet Parisian nights. In the heart of the city, hidden behind 
+unassuming doors, lies a tropical oasis...</p>
+            </div>
+            <div class="mt-8 md:mt-0 md:w-1/2">
+                <img src="bikini_bottom_interior.jpg" alt="Bikini Bottom 
+Interior" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Backstory Section -->
+    <section class="py-16 px-4 md:px-16 bg-gray-700">
+        <h2 class="text-center text-3xl font-semibold">How Bikini Bottom 
+Surfaced</h2>
+        <p class="mt-4 text-lg">Legend has it that Bikini Bottom isn’t just
+    a bar—it’s an escape to a place beyond the edges of a map, where
+    Polynesia meets the mysteries of Southeast Asia. Tucked away from
+    Parisian streets, Bikini Bottom draws you into an enchanting world of
+    tropical wonder, where the warmth of California’s classic tiki bar
+    culture intertwines with the secrets of Singapore’s far-flung shores.</p>
+        <p class="mt-4 text-lg">In this imaginary haven, the boundaries of space and time blur. Tiki torches flicker as if whispering ancient tales, while the air hums with the rhythm of distant islands and exotic spices. The lights are dim, the drinks are exotic, and each sip takes you further away from the routine of Parisian life.</p>
+        <p class="mt-4 text-lg">Bikini Bottom is more than just a destination—it’s a journey to a hidden paradise where you’re free to wander, get lost, and discover something new with every cocktail. It’s a long way from the bustling streets of Paris, yet right under its surface, a secret hideaway where time slows down, and the night unfolds in mystery.</p>
+        <div class="mt-8 flex justify-center space-x-8">
+            <img src="illustration_2.jpg" alt="Illustration 2" class="w-96 
+rounded-lg">
+        </div>
+    </section>
+
+    <!-- Cocktail Carousel -->
+    <section id="cocktails" class="py-16 bg-gray-800">
+        <h2 class="text-center text-3xl font-semibold">Sip on 
+Paradise</h2>
+        <div class="swiper-container mt-8">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="cocktail1.jpg" alt="Cocktail 1" 
+class="rounded-lg shadow-lg mx-auto">
+                    <p class="text-center mt-2">Mauna Loa Lava Flow</p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="cocktail2.jpg" alt="Cocktail 2" 
+class="rounded-lg shadow-lg mx-auto">
+                    <p class="text-center mt-2">Pineapple Inferno</p>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <!-- Pagination and navigation -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Menu Link -->
+    <section id="menu" class="py-16 px-4 md:px-16 bg-gray-700 
+text-center">
+        <h2 class="text-3xl font-semibold">Ready to Indulge?</h2>
+        <a href="menu.pdf" target="_blank" class="mt-4 inline-block 
+bg-yellow-400 text-gray-900 py-2 px-4 text-lg rounded-lg 
+hover:bg-yellow-300">View the Menu</a>
+    </section>
+
+    <!-- Info Section -->
+    <section id="location" class="py-16 px-4 md:px-16 bg-gray-800 
+text-center">
+        <h2 class="text-3xl font-semibold">Find Us</h2>
+        <p class="mt-4">9 Rue de Lappe, 75011, Paris</p>
+        <p class="mt-2">Tuesday – Thursday: 7 PM – 1 AM<br>Friday – 
+Sunday: 6 PM – 2 AM<br>Monday: Closed</p>
+        <a href="#" class="mt-4 inline-block bg-yellow-400 text-gray-900 
+py-2 px-4 text-lg rounded-lg hover:bg-yellow-300">Book Your Escape</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-900 text-center">
+        <div class="flex justify-center space-x-6">
+            <a href="#"><i class="fab fa-instagram text-2xl"></i></a>
+            <a href="#"><i class="fab fa-facebook text-2xl"></i></a>
+            <a href="#"><i class="fab fa-twitter text-2xl"></i></a>
+        </div>
+        <form class="mt-4">
+            <input type="email" placeholder="Subscribe for updates" 
+class="px-4 py-2 rounded-lg text-gray-900">
+            <button type="submit" class="ml-2 bg-yellow-400 text-gray-900 
+py-2 px-4 rounded-lg hover:bg-yellow-300">Sign Up</button>
+        </form>
+    </footer>
+
+    <!-- Swiper.js Script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
+
